@@ -1,0 +1,107 @@
+.logo-image{
+    width: 2%;
+    height: 2%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+/* Style général de la section équipe */
+.team-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Style pour chaque membre */
+.team-member {
+    margin: 20px;
+}
+
+/* Images arrondies */
+.rounded-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+}
+
+/* Style des icônes des réseaux sociaux */
+.social-icons a {
+    margin: 5px;
+    color: #007bff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}
+.team-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #0d6efd;
+    bottom: 0;
+    left: 0;
+}
+
+.team-member {
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h5 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.team-member p.text-muted {
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    color: #ffffff;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-3px);
+}
